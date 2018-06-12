@@ -11,7 +11,7 @@ arguments to the python interpreter, (like uwsgi)
 
     import warnings, bytes_warning
     bytes_warning.set_flag(1)
-    warnings.simplefilter('default::BytesWarning')
+    warnings.filterwarnings('default', category=BytesWarning)
 
 ## License
 
