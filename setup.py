@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name = 'BytesWarning',
+    name = 'bytes-warning',
     version = '0.1',
     author='David Szotten',
     author_email='davidszotten@gmail.com',
